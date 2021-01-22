@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>VIDEOS FROM CAMERON BRUCE</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body id="top">
+
+				<section id="banner" data-video="images/banner">
+					<div class="inner">
+						<header>
+							<h1>CAMERON BRUCE VIDEOS</h1>
+							<p>A full catalogue of all Cameron Bruce musical arrangements and videos in 1 place!</p>
+						</header>
+						<a href="#main" class="more">Learn More</a>
+					</div>
+				</section>
+
+
+			<!-- Main -->
+				<div id="main">
+					<div class="inner">
+
+					<!-- Boxes -->
+						<div class="thumbnails">
+
+							<div class="box">
+								<a href="https://youtu.be/78LktTmsb60" class="image fit"><img src="http://img.youtube.com/vi/78LktTmsb60/mqdefault.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>UPTWON FUNK!</h3>
+									<p>BadWolf Band - "UpTown Funk" by Bruno Mars</p>
+									<a href="https://youtu.be/78LktTmsb60" class="button fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
+
+
+							<div class="box">
+								<a href="https://youtu.be/ORuNz9tuqzA" class="image fit"><img src="http://img.youtube.com/vi/ORuNz9tuqzA/mqdefault.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>BADWOLF EPK</h3>
+									<p>5 Piece Band demonstrates their performance style.</p>
+									<a href="https://youtu.be/ORuNz9tuqzA" class="button style2 fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
+
+							<div class="box">
+								<a href="https://youtu.be/ovuB4lNuswg" class="image fit"><img src="http://img.youtube.com/vi/ovuB4lNuswg/mqdefault.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>SHAKE IT OFF</h3>
+									<p>RnB Style groove for a Pop Hit from Taylor Swift.</p>
+									<a href="https://youtu.be/ovuB4lNuswg" class="button style3 fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
+
+							<div class="box">
+								<a href="https://youtu.be/?b5kxa74TN8g" class="image fit"><img src="http://img.youtube.com/vi/b5kxa74TN8g/mqdefault.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>BADWOLF 8 PIECE EPK</h3>
+									<p>An 8 Piece band scaled up from the usual 5 piece.</p>
+									<a href="https://youtu.be/b5kxa74TN8g" class="button style2 fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
+
+							<div class="box">
+								<a href="https://youtu.be/7nC5Zsn3a8s" class="image fit"><img src="http://img.youtube.com/vi/7nC5Zsn3a8s/mqdefault.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>ALL ABOUT THAT BASS</h3>
+									<p>This pop hit get a swing make over!</p>
+									<a href="https://youtu.be/7nC5Zsn3a8s" class="button style3 fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
+
+							<div class="box">
+								<a href="https://youtu.be/91lRF4_pLho" class="image fit"><img src="http://img.youtube.com/vi/91lRF4_pLho/mqdefault.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>CHIANO SKY & CAMERON BRUCE</h3>
+									<p>Chiano and Cameron Bruce - relaxed acoustic.</p>
+									<a href="https://youtu.be/91lRF4_pLho" class="button fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+<div id="paypal-button"></div>
+<script src="https://www.paypalobjects.com/api/checkout.js"></script>
+<script>
+paypal.Button.render({
+// Configure environment
+env: 'sandbox',
+client: {
+sandbox: 'demo_sandbox_client_id',
+production: 'demo_production_client_id'
+},
+// Customize button (optional)
+locale: 'en_US',
+style: {
+size: 'small',
+color: 'gold',
+shape: 'pill',
+},
+// Set up a payment
+payment: function (data, actions) {
+return actions.payment.create({
+transactions: [{
+amount: {
+total: '0.01',
+currency: 'USD'
+}
+}]
+});
+},
+// Execute the payment
+onAuthorize: function (data, actions) {
+return actions.payment.execute()
+.then(function () {
+// Show a confirmation message to the buyer
+window.alert('Thank you for your purchase!');
+});
+}
+}, '#paypal-button');
+</script>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<p class="copyright">&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com/">Unsplash</a>. Videos: <a href="http://coverr.co/">Coverr</a>.</p>
+					</div>
+				</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
